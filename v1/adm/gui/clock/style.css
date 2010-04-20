@@ -1,0 +1,28 @@
+.tdButton{
+	width:50px;
+}
+.inputCopy{
+	width:730px;
+}
+
+#imgHtmlTxt{
+	width:700px;
+}
+#styleHtmlTxt{
+	width:700px;
+}
+#glossHtmlTxt{
+	width:700px;
+}
+
+#ulImgList{
+	width: 780px;
+}
+#ulImgList li{
+	text-align:center;
+	width: 105px;
+}
+
+.separator{
+	border-bottom: 2px solid #ccc;
+}

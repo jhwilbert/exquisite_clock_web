@@ -1,0 +1,225 @@
+/* ****************** Elements ****************** */
+body { 
+	margin:  10px;
+	padding: 0px;
+	/*background-image: url(imgs/bg_pattern.gif);*/
+	background-color: #FFFFFF;
+	
+	font-size : 10px;
+	color : #333;
+	font-family : Arial, Geneva, Arial, Helvetica, sans-serif;
+	text-align : left;
+	line-height: 16px;
+}
+.txt{
+	font-size : 10px;
+	color : #333;
+	font-family : Arial, Geneva, Arial, Helvetica, sans-serif;
+	text-align : left;
+	line-height: 16px;
+}
+td { vertical-align: top; }
+a { 
+	color : #333; 
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+
+/* ****************** Main ****************** */
+#main {
+	background-image: url(../imgs/bg_header.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	border: 5px solid #e0e0e0;
+	float: left;
+}
+
+.error{
+	clear: both;
+	float: left;
+	color: #FF0000;
+	font-weight: bold;
+	border: 1px solid #FF0000;
+	background-color: #FFEEEE;
+	width: 400px;
+	padding: 4px;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+.alert{
+	clear: both;
+	float: left;
+	color: #0000FF;
+	font-weight: bold;
+	border: 1px solid #0000FF;
+	background-color: #EEEEFF;
+	width: 400px;
+	padding: 4px;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+#title{
+	font-weight: bold;
+	font-size: 14px;
+	padding: 4px;
+	margin: -5px;
+	margin-bottom: 5px;
+	background-color: #FFF;
+	border-top: 0px solid #e0e0e0;
+	border-bottom: 0px solid #e0e0e0;
+	background: #e0e0e0;
+	color: #333;
+	height: 16px;
+}
+#top{
+	background-image: url(../imgs/logo.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 99px;
+	margin: 0px 0px 2px 0px;
+}
+#logged{
+	position: fixed;
+	right: 10px;
+	top: 80px;
+	clear:both;
+	//float:left;
+
+}
+
+/* ****************** Menu ****************** */
+#menu {
+	clear: both;
+	width: 140px;
+	margin: 15px 15px 5px 15px;
+	background: #f2f2f2;
+	float: left;
+}
+#menuTitle{
+	font-weight: bold;
+	font-size: 12px;
+	padding: 4px;
+	background-color: #ccc;
+	text-align:center;
+	height: 16px;
+}
+#menu ul {
+	font-size: 12px;
+	list-style-position : outside;
+	list-style : none;
+	margin:  0px;
+	padding: 3px 3px 3px 13px;
+	list-style-image : url(../imgs/bullet_lista.gif); 
+}
+#menu ul li a {
+	color: #333;
+	text-decoration: none;
+}
+#menu ul li a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+.subMenu {
+	font-weight: normal;
+	font-size: 10px;
+	padding-left: 20px;
+}
+.subMenu a{
+	color: #333;
+}
+/* ****************** Contain ****************** */
+#contain {
+	width: 970px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+	float: left;
+	border-left: 0px solid #e0e0e0;
+	min-height:400px;
+	_height:400px;
+	background: #f2f2f2;
+}
+
+/* ****************** Lists ****************** */
+ul.inLine { 
+	margin  : 0px; /* Zera as margens */ 
+	padding : 0px; /* Zera os paddings */ 
+}
+
+ul.inLine li { 
+	list-style-type:none; 
+	display : inline; 
+	float   : left; /* Faz flutuar a esquerda */ 
+	margin  : 0px; 	/* Tira as margens */ 
+	padding : 0px; 	/* Tira os paddings */
+}
+
+/* ****************** Form Elements ****************** */
+.input {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color : #333;
+	background: #ffffff;
+	border : 1px solid #e0e0e0;
+	width: 200px;
+}
+.inputText {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color : #333;
+	background: #ffffff;
+	border : 1px solid #e0e0e0;
+	width: 400px;
+	height: 170px;
+}
+.btInput {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color : #FFF;
+	background: #ccc;
+	border : 1px solid #ccc;
+	font-weight: bold;
+}
+
+
+
+/* ****************** CopyRight ****************** */
+#cr {
+	clear: both;
+	float: left;
+	width: 950px;
+	text-align:right;
+	font-size : 10px;
+	font-weight: bold;
+	line-height:12px;
+	height: 12px; 
+	/*color : #800000; */
+	color : #FFF; 
+	font-family :  Arial, Helvetica, sans-serif; 
+	text-align : right; 
+	/*margin-bottom:15px;*/
+	margin:0px;
+	padding-right: 10px;
+
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
+#cr a { 
+	/*color : #3B7A9D; */
+	color : #FFF; 
+	text-decoration: none;
+}
+#cr a:hover {
+	text-decoration: underline;
+}
+

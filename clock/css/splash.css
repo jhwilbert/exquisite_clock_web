@@ -1,0 +1,54 @@
+/* BODY AND WRAPPER */ 
+
+html, body {
+	color: #484848;
+	font-family: Arial;
+	font-size: 12px;
+	overflow: hidden;
+	background: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+	
+	color: white;
+	font-size: 25px;
+		line-height: 30px;
+		padding-bottom: 30px;
+}
+
+#installationbg {
+
+	width: 100%;
+	height: 100%;
+	background-color:black;	
+	background-image:url('http://gym.vegans.it/exquisite_clock/clock/imgs/bg.jpg');
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+	
+#wrapper {
+	position:absolute;
+	top: 50%;
+	left: 0%;
+	width:600px;
+	height:22em;
+
+}
+
+#top_ad {
+	margin: 30px 30px 30px 30px;
+	line-height: 20px;
+
+}
+
+#menu_ad {
+
+padding-top: 30px;
+}
+
+A:link {color: white; font-weight: bold; font-size: 12px; text-decoration: underline}
+A:visited {color: white; font-weight: bold; font-size: 12px; text-decoration: underline}
+A:active {text-decoration: none}
+A:hover {color: white; font-weight: bold; font-size: 12px; text-decoration: underline}
