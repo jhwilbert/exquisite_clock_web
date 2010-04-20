@@ -39,13 +39,13 @@
 
 <?php
 
-if ($live==0) {  // its running clock from a static collection
+if ($live==0) { 
 	include("inc/common.php");
 	include("inc/clock_collection.php");
 	echo '<script>';
 	for ($i = 0; $i < sizeof($number); $i++) { echo "arr".$i." = new Array('".implode("','",$number[$i])."');\n";}
 	echo '</script>';
-} else if ($live==1) { // clock is running in live mode
+} else if ($live==1) {
 	include("inc/common.php");
 	include("inc/clock_live.php");		
 }
